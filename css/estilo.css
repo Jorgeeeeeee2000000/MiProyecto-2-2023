@@ -38,10 +38,9 @@
 }
 #contenidoCuerpo{
     width: 100%;
-    min-height: 500px;
-    border: 1px solid black;
     background-color: #d3ee9f;
     display: flex;
+    padding-top: 50px;
 }
 footer{
 width: 100%;
@@ -64,4 +63,32 @@ ul li a:hover{
     font-size: 13px;
     text-decoration: underline dashed 2px purple;
     background-color: #d6f2a4;
+}
+#LogoInicio{
+    background-image:url("/img/Recurso\ 7.png");
+    padding: 2px 0 0 25px;
+    background-size: 22px;
+    background-repeat: no-repeat;
+}
+#CuerpoImagen{
+    flex: 40%;
+}
+#CuerpoDatos{
+    flex: 60%;
+}
+#bordeImagen{
+    background-color: #d46b68;
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+    border-radius: 26px;
+}
+img{
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase;
 }
