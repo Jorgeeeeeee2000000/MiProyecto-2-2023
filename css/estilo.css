@@ -44,8 +44,10 @@
 }
 footer{
 width: 100%;
-min-height: 200px;
-border: 1px solid black;
+background-color: #7B9E35;
+display: flex;
+padding: 30px;
+
 }
 ul li{
     display: inline; 
@@ -92,3 +94,62 @@ h1{
     padding-bottom: 20px;
     text-transform: uppercase;
 }
+#DetalleDatos{
+    width: 70%;
+    padding: 20px;
+    text-align: justify;
+}
+#Botones{
+    display: flex;
+    margin-top: 20px;
+    padding: 30px;
+}
+#BotonFavorito{
+    flex: 50%;
+}
+#BotonUbicacion{
+    flex: 50%;
+}
+#marcoFavorito{
+   background-image: url("/img/Recurso\ 13.png");
+}
+#marcoUbicacion{
+    background-image: url("/img/Recurso\ 2.png");
+}
+.disenoboton{
+background-color: #cccccc;
+width: 250px;
+background-image: url("/img/Recurso\ 2.png");
+background-repeat: no-repeat;
+background-size: 28px;
+padding: 20px 0px 20px 60px;
+background-position: left 20px center;
+border-radius: 18px;
+}
+.disenoboton:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+#marcoMenuFooter{
+    flex: 15%;
+}
+#marcoDetalleFooter{
+    flex: 35%;
+}
+#marcoRedesFooter{
+    flex: 45%;
+}
+.footerRedes{
+    display: inline;
+}
+Li img {
+    width: 28px;
+}
+.footerRedes li{
+    border: none;
+}
+
+
+
+
+
